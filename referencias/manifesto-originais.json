@@ -1,0 +1,92 @@
+[
+  {
+    "arquivo": "referencias/originais/apresentacao-enade.pdf",
+    "bytes": 17550731,
+    "sha256": "89465ee2ebdb95d0088b696d99357da734a418da60573cb06d20d49374b47efa"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/backlog_priorizado.csv",
+    "bytes": 2720,
+    "sha256": "fbd55ab46f3458e7d4e5a5b1967f35e4afb7f7741a083d8154c84ffd45a40a21"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/casos_de_uso.png",
+    "bytes": 413181,
+    "sha256": "52a0b91d25817543ab10a0c0fb9a5c090ec4c2c886a5bc208d595dff15f9f163"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/casos_de_uso.puml",
+    "bytes": 1018,
+    "sha256": "10050eb76c30384d6621118ceb573787df48a1cc2d5b40cf2fa84be38e7a3eb7"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/casos_de_uso.svg",
+    "bytes": 9257,
+    "sha256": "470cedfaa6c64424735b171e338d050cdd7f9aaf1ccbbc6096f0cb08fddfd640"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/componentes.png",
+    "bytes": 142520,
+    "sha256": "3139dcf57d012c9fe1bce9fec19e4f3ce49f913fa3b92b7a67ca89322d08ec82"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/componentes.puml",
+    "bytes": 722,
+    "sha256": "ed2e81f3f521fd241c0d43fc90b1824605b2d0ca04090f0eaae535eaaed09528"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/componentes.svg",
+    "bytes": 5114,
+    "sha256": "37f6437780113f9dca1af7f03cc8f078791852eefd577c4c7135c23efce140b8"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/implantacao.png",
+    "bytes": 241626,
+    "sha256": "d2757eaf73a1a8bdacb0b92fa38eca92f49e27ee079af4143617005258e481f4"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/implantacao.puml",
+    "bytes": 735,
+    "sha256": "f8449c54f70ac0f678c9c9b41e525ce2967a3b78f8c21b33f8a2dfc7a352b53b"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/diagramas/implantacao.svg",
+    "bytes": 6935,
+    "sha256": "f6f94d6346f19a9e8e3fd4ff918defa842bd783126ea5a22ce7ef8ff829f14c8"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/evidencias/INSTRUCOES.md",
+    "bytes": 564,
+    "sha256": "cbd96b7810472fb1331c51d4563778631fdf3968d6d00eb679c5fd35165af7de"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/INSTRUCOES-ENTREGA.md",
+    "bytes": 678,
+    "sha256": "eaa94e3347f5fcec6043c596305c57866fbaf048a2e286c2ddb1d4fa91d44738"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/modelos/INSTRUCOES.md",
+    "bytes": 382,
+    "sha256": "bd5f2e16e429ed00ed48395948668dabcc880785006b5adc5c22219437288d44"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/modelos/resultados_entrevistas.csv",
+    "bytes": 126,
+    "sha256": "00cfd46ba1f65be3a1cddeec583a6028b982567d988f75d12f79c1f1d9f3762e"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/README.md",
+    "bytes": 1778,
+    "sha256": "945336970f8323797061196724569e7c52fe7da840b1f79148633cf17bb60d27"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/Trabalho_P1_ENADE.docx",
+    "bytes": 786729,
+    "sha256": "cc291bf171c8408cae4af6f707a23c698c8e7e28105bcf159f5d8f5b70d0f32e"
+  },
+  {
+    "arquivo": "referencias/originais/pacote-p1/Trabalho_P1_ENADE.pdf",
+    "bytes": 1406383,
+    "sha256": "a897ece810f45049451ca597203997c757bff4b4d6b0a08a5560829e1633448a"
+  }
+]

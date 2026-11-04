@@ -1,0 +1,28 @@
+@startuml
+skinparam componentStyle uml2
+skinparam shadowing false
+component "Interface Web Responsiva" as Web
+package "Camada de Aplicação - API" {
+  component "Identidade e Acesso" as Auth
+  component "Banco de Questões" as Q
+  component "Simulados e Tempo" as Sim
+  component "Resultados e Estatísticas" as Res
+  component "Fórum e Moderação" as Forum
+  component "Administração de Conteúdo" as Admin
+}
+component "Repositório de Dados" as Repo
+database "Dados de Usuários, Questões,\nTentativas e Comentários" as DB
+Web --> Auth : HTTPS / API
+Web --> Q
+Web --> Sim
+Web --> Res
+Web --> Forum
+Web --> Admin
+Auth --> Repo
+Q --> Repo
+Sim --> Repo
+Res --> Repo
+Forum --> Repo
+Admin --> Repo
+Repo --> DB
+@enduml

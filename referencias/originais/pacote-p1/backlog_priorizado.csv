@@ -1,0 +1,17 @@
+﻿ID;História de usuário;RF relacionado;Prioridade MoSCoW;Estimativa hipotética (pontos);Critério de aceite
+PB-01;Como estudante, quero cadastrar e acessar minha conta para guardar meu progresso.;RF-01, RF-02;Must;5;Cadastro e autenticação funcionam com mensagens de erro claras.
+PB-02;Como estudante, quero filtrar questões por ano, curso e componente para estudar conteúdos relevantes.;RF-03;Must;5;Filtros combináveis retornam questões corretas.
+PB-03;Como estudante, quero responder uma questão para verificar minha compreensão.;RF-04;Must;3;Uma resposta válida é registrada por tentativa individual.
+PB-04;Como estudante, quero receber gabarito comentado para aprender com os erros.;RF-05;Must;5;A solução só aparece no momento permitido e inclui explicação.
+PB-05;Como estudante, quero configurar um simulado para praticar em condições semelhantes ao exame.;RF-06;Must;5;É possível selecionar área, quantidade e tempo válidos.
+PB-06;Como estudante, quero acompanhar tempo e finalizar simulado para simular o ENADE.;RF-07;Must;8;Expiração do tempo encerra tentativa sem aceitar novas respostas.
+PB-07;Como estudante, quero visualizar pontuação para saber o meu desempenho.;RF-08;Must;5;Acertos, erros e percentagem correspondem às respostas.
+PB-08;Como administrador, quero gerir questões e gabaritos para manter o banco confiável.;RF-13, RF-14;Must;8;Questões e gabaritos validados podem ser ativados e arquivados.
+PB-09;Como administrador, quero gerir perfis para restringir operações sensíveis.;RF-16;Must;5;Papéis limitam acesso inclusive em rotas diretas.
+PB-10;Como estudante, quero analisar desempenho por área para orientar meus estudos.;RF-10;Must;5;Gráficos e percentagens por área coincidem com os resultados.
+PB-11;Como estudante, quero consultar meu histórico para acompanhar evolução.;RF-09;Should;3;Histórico pessoal ordenado por data e restrito ao proprietário.
+PB-12;Como coordenador, quero consultar indicadores agregados para orientar ações de apoio.;RF-15;Should;5;O painel exibe agregados sem expor dados pessoais por padrão.
+PB-13;Como estudante, quero discutir questões para aprender com colegas.;RF-11;Should;5;Comentários surgem vinculados à questão.
+PB-14;Como administrador, quero moderar fóruns para manter a qualidade do conteúdo.;RF-12;Should;3;Moderação altera visibilidade e registra ação.
+PB-15;Como estudante, quero buscar pelo texto do enunciado para encontrar questões mais rapidamente.;RF-17;Could;3;Busca textual respeita filtros selecionados.
+PB-16;Como estudante, quero identificar a origem da questão para confiar no material consultado.;RF-18;Should;3;Toda questão exibe referência de origem.

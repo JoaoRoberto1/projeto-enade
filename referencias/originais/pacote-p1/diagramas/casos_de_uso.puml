@@ -1,0 +1,36 @@
+@startuml
+skinparam shadowing false
+skinparam packageStyle rectangle
+left to right direction
+actor Estudante
+actor Professor
+actor Coordenador
+actor Administrador
+rectangle "Sistema de Apoio ao ENADE" {
+  usecase "Autenticar" as UC01
+  usecase "Consultar e filtrar questões" as UC02
+  usecase "Responder questão" as UC03
+  usecase "Consultar gabarito comentado" as UC04
+  usecase "Realizar simulado cronometrado" as UC05
+  usecase "Consultar histórico e estatísticas" as UC06
+  usecase "Participar do fórum" as UC07
+  usecase "Revisar questões e comentários" as UC08
+  usecase "Consultar resultados agregados" as UC09
+  usecase "Gerenciar banco de questões" as UC10
+  usecase "Moderar fórum" as UC11
+  usecase "Gerenciar perfis e permissões" as UC12
+}
+Estudante -- UC01
+Estudante -- UC02
+Estudante -- UC03
+Estudante -- UC04
+Estudante -- UC05
+Estudante -- UC06
+Estudante -- UC07
+Professor -- UC08
+Professor -- UC06
+Coordenador -- UC09
+Administrador -- UC10
+Administrador -- UC11
+Administrador -- UC12
+@enduml

@@ -1,0 +1,3 @@
+# Dependências opcionais para consolidar o relatório PDF; não são dependências de produto.
+reportlab==5.1.0
+Markdown==3.11.2

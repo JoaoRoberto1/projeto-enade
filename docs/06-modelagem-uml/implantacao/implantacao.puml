@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+left to right direction
+title Sistema de Apoio ao ENADE — Implantação\nDistribuição conceitual proposta | Nenhum ambiente implantado
+node "Dispositivo do usuário\nComputador, celular ou tablet" as Device <<device>> {
+  node "Navegador compatível" as Browser <<executionEnvironment>> {
+    artifact "Cliente web responsivo" as Client
+  }
+}
+cloud "Infraestrutura de hospedagem proposta\nProvedor e capacidade a definir" {
+  node "Servidor de aplicação (lógico)" as App <<device>> {
+    node "Ambiente de execução" as Runtime <<executionEnvironment>> {
+      artifact "Aplicação do sistema\nInterface, autenticação, questões,\nsimulados, correção, estatísticas, fórum" as Software
+    }
+  }
+  node "Servidor de dados (lógico)" as DB <<device>> {
+    node "SGBD a definir" as Engine <<executionEnvironment>> {
+      artifact "Dados e versões\nContas, questões, tentativas,\nresultados, comentários e auditoria" as Data
+    }
+  }
+  node "Armazenamento de recuperação\nProposto; acesso restrito" as Storage {
+    artifact "Cópias protegidas" as Backup
+  }
+}
+Browser -- App : HTTPS
+App -- DB : conexão protegida\nrede restrita
+DB -- Storage : cópia protegida\nprocedimento a validar
+legend bottom
+  Servidores são nós lógicos: podem compartilhar ou separar recursos físicos.
+  Cliente acessa a aplicação; não acessa diretamente o servidor de dados.
+  O artefato da aplicação reúne os componentes lógicos do diagrama de componentes.
+  Backup e dimensionamento são propostas ligadas a RNF-008 e RNF-013.
+endlegend
+@enduml

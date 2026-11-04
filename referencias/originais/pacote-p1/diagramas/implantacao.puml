@@ -1,0 +1,26 @@
+@startuml
+skinparam shadowing false
+node "Dispositivo do Estudante" <<device>> as Client1 {
+  artifact "Navegador" as Browser1
+}
+node "Dispositivo do Administrador" <<device>> as Client2 {
+  artifact "Navegador" as Browser2
+}
+node "Servidor Web (lógico)" as Web {
+  artifact "Interface Web" as WebArtifact
+}
+node "Servidor de Aplicação (lógico)" as App {
+  artifact "API de Negócio" as ApiArtifact
+}
+node "Servidor de Dados (lógico)" as DB {
+  artifact "Banco de Dados" as SqlArtifact
+}
+node "Armazenamento de Backup" as Backup {
+  artifact "Cópias Protegidas" as BackArtifact
+}
+Client1 --> Web : HTTPS
+Client2 --> Web : HTTPS
+Web --> App : API HTTPS
+App --> DB : Conexão protegida
+DB --> Backup : Cópia de segurança
+@enduml

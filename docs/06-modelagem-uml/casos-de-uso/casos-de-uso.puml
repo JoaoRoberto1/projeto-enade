@@ -1,0 +1,60 @@
+@startuml
+!pragma layout smetana
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam actorStyle awesome
+title Sistema de Apoio ao ENADE — Casos de uso\nModelo conceitual proposto | M1 | 04/11/2026
+actor "Usuário" as Usuario <<abstrato>>
+actor Estudante
+actor Professor
+actor Coordenador
+actor Administrador
+Usuario <|-- Estudante
+Usuario <|-- Professor
+Usuario <|-- Coordenador
+Usuario <|-- Administrador
+rectangle "Sistema de Apoio ao ENADE" {
+  usecase "UC-001\nAutenticar e encerrar sessão" as UC001
+  usecase "UC-014\nEditar perfil próprio" as UC014
+  usecase "UC-013\nCadastrar conta" as UC013
+  usecase "UC-002\nConsultar e pesquisar questões" as UC002
+  usecase "UC-003\nResponder questão individual" as UC003
+  usecase "UC-004\nConsultar gabarito comentado" as UC004
+  usecase "UC-005\nRealizar simulado cronometrado" as UC005
+  usecase "UC-006\nConsultar histórico e estatísticas" as UC006
+  usecase "UC-007\nParticipar da discussão por questão" as UC007
+  usecase "UC-008\nManter e revisar gabaritos" as UC008
+  usecase "UC-009\nConsultar indicadores agregados" as UC009
+  usecase "UC-010\nAdministrar questões" as UC010
+  usecase "UC-011\nModerar discussões" as UC011
+  usecase "UC-012\nAdministrar contas e papéis" as UC012
+}
+Usuario -- UC001
+Usuario -- UC014
+Estudante -- UC013
+Estudante -- UC002
+Estudante -- UC003
+Estudante -- UC004
+Estudante -- UC005
+Estudante -- UC006
+Estudante -- UC007
+Professor -- UC002
+Professor -- UC004
+Professor -- UC007
+Professor -- UC008
+Coordenador -- UC009
+Administrador -- UC008
+Administrador -- UC010
+Administrador -- UC011
+Administrador -- UC012
+legend bottom
+  Usuário abstrato reúne interações comuns; não é um novo papel de acesso.
+  Revisão pedagógica exige papel Professor; administrador mantém/publica rascunhos.
+  Autenticação é pré-condição dos fluxos restritos, sem <<include>> artificial.
+  UC-005 abrange configuração, respostas, prazo, encerramento e correção objetiva.
+  As associações representam permissões propostas, sujeitas à validação.
+endlegend
+@enduml

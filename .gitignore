@@ -1,0 +1,16 @@
+# Arquivos locais e dados de pesquisa não destinados à publicação
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.log
+__pycache__/
+.venv/
+.env
+.env.*
+*.pem
+*.key
+evidencias/entrevistas/privado/
+entregaveis/temporarios/
+.ferramentas/

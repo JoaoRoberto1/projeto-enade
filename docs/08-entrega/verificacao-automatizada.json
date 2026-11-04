@@ -1,0 +1,15 @@
+{
+  "verificacoes_aprovadas": 1178,
+  "erros": [],
+  "links_relativos": 179,
+  "arquivos_markdown_atuais": 44,
+  "originais_preservados": 18,
+  "contagens": {
+    "RF": 20,
+    "RNF": 14,
+    "RN": 12,
+    "US": 17,
+    "UC": 14
+  },
+  "limites": "Não verifica URLs externas, validade empírica, aprovação humana, conformidade de produto ou sintaxe completa PlantUML; esta última requer o renderizador."
+}

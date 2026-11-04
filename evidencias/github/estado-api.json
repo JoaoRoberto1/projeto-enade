@@ -1,0 +1,438 @@
+{
+  "data_contexto_local": "2026-11-04",
+  "repositorio": "JoaoRoberto1/projeto-enade",
+  "url": "https://github.com/JoaoRoberto1/projeto-enade",
+  "branch": "docs/m1-requirements-and-uml",
+  "metodo": "API REST autenticada com credencial existente do Git; segredo mantido somente em memória",
+  "consultas": [
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:04 GMT",
+      "request_id": "EBDD:153772:9493E3:EC9D75:6AEBB3CC"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/user",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:05 GMT",
+      "request_id": "EBDE:16C615:956360:ED70A3:6AEBB3CD"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues?state=all&per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:05 GMT",
+      "request_id": "EBE3:F89EB:2B0FB4A:486173E:6AEBB3CD"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/milestones?state=all&per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:06 GMT",
+      "request_id": "EBE4:1335FD:94F6B9:ED07EA:6AEBB3CE"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/milestones",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:06 GMT",
+      "request_id": "EBE5:CB53F:947716:EC7E49:6AEBB3CE"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels?per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:07 GMT",
+      "request_id": "EBE6:1ABFC8:944BD7:EC53BE:6AEBB3CF"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:08 GMT",
+      "request_id": "EBE7:214AEF:941DCD:EC0E20:6AEBB3CF"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:08 GMT",
+      "request_id": "EBE8:19C4ED:94DDCB:ECC34C:6AEBB3D0"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:09 GMT",
+      "request_id": "EBE9:2C0C44:946B2E:EC7DEC:6AEBB3D0"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:09 GMT",
+      "request_id": "EBEA:30E6F0:94C198:ECCFAB:6AEBB3D1"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/labels",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:10 GMT",
+      "request_id": "EBEB:3AEC8A:93759A:EB7F67:6AEBB3D2"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:11 GMT",
+      "request_id": "EBEC:16F59D:93B8D6:EB89B9:6AEBB3D2"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:12 GMT",
+      "request_id": "EBED:B3ECA:945525:EC2F68:6AEBB3D4"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:14 GMT",
+      "request_id": "EBEE:107121:94F145:ECECE1:6AEBB3D5"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:15 GMT",
+      "request_id": "EBEF:1576AC:9416BA:EC05F7:6AEBB3D6"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:16 GMT",
+      "request_id": "EBF0:216B13:943925:EC1ED7:6AEBB3D7"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:17 GMT",
+      "request_id": "EBF1:3BCBA0:950449:ECFED9:6AEBB3D8"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:18 GMT",
+      "request_id": "EBF3:1FAC7D:94CBD0:ECBEFE:6AEBB3D9"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:19 GMT",
+      "request_id": "EBF4:71C10:945B40:EC478F:6AEBB3DA"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:21 GMT",
+      "request_id": "EBF5:143EEA:953156:ED5A87:6AEBB3DC"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:22 GMT",
+      "request_id": "EBF6:3DCAA9:94006F:EC0A53:6AEBB3DD"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:23 GMT",
+      "request_id": "EBF9:8A333:943A42:EC257E:6AEBB3DE"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:24 GMT",
+      "request_id": "EBFB:3844C5:951755:ED30ED:6AEBB3DF"
+    },
+    {
+      "metodo": "POST",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:26 GMT",
+      "request_id": "EBFC:BECCC:952B84:ED33DD:6AEBB3E1"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/collaborators/marcelobezerra-dotcom",
+      "http": 404
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/invitations?per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:26 GMT",
+      "request_id": "EBFE:267C02:94D798:ECC282:6AEBB3E2"
+    },
+    {
+      "metodo": "PUT",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/collaborators/marcelobezerra-dotcom",
+      "http": 201,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:27 GMT",
+      "request_id": "EBFF:37C715:952BFF:ED3BA3:6AEBB3E3"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/collaborators/marcelobezerra-dotcom",
+      "http": 404
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/invitations?per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:38:28 GMT",
+      "request_id": "EC01:2C0C44:948060:EC9F6A:6AEBB3E4"
+    }
+  ],
+  "issues": [
+    {
+      "id_local": "M1-01",
+      "acao": "criada aberta",
+      "number": 1,
+      "title": "Elaborar Documento de Visão",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/1",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:11Z",
+      "milestone": 1,
+      "labels": [
+        "documentation"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-02",
+      "acao": "criada aberta",
+      "number": 2,
+      "title": "Identificar Stakeholders",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/2",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:12Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "requisitos"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-03",
+      "acao": "criada aberta",
+      "number": 3,
+      "title": "Preparar Roteiro de Entrevistas",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/3",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:13Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "elicitacao"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-04",
+      "acao": "criada aberta",
+      "number": 4,
+      "title": "Executar e Registrar Entrevistas",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/4",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:14Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "elicitacao"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-05",
+      "acao": "criada aberta",
+      "number": 5,
+      "title": "Documentar Requisitos Funcionais",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/5",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:15Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "requisitos"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-06",
+      "acao": "criada aberta",
+      "number": 6,
+      "title": "Documentar Requisitos Não Funcionais",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/6",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:16Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "requisitos"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-07",
+      "acao": "criada aberta",
+      "number": 7,
+      "title": "Especificar Regras de Negócio",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/7",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:18Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "requisitos"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-08",
+      "acao": "criada aberta",
+      "number": 8,
+      "title": "Priorizar Backlog",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/8",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:19Z",
+      "milestone": 1,
+      "labels": [
+        "backlog",
+        "documentation"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-09",
+      "acao": "criada aberta",
+      "number": 9,
+      "title": "Elaborar Diagrama de Casos de Uso",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/9",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:20Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "uml"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-10",
+      "acao": "criada aberta",
+      "number": 10,
+      "title": "Elaborar Diagrama de Componentes",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/10",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:21Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "uml"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-11",
+      "acao": "criada aberta",
+      "number": 11,
+      "title": "Elaborar Diagrama de Implantação",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/11",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:22Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "uml"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-12",
+      "acao": "criada aberta",
+      "number": 12,
+      "title": "Revisar Documentação e Rastreabilidade",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/12",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:24Z",
+      "milestone": 1,
+      "labels": [
+        "documentation"
+      ],
+      "assignees": []
+    },
+    {
+      "id_local": "M1-13",
+      "acao": "criada aberta",
+      "number": 13,
+      "title": "Preparar Entrega no AVA",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/13",
+      "state": "open",
+      "created_at": "2026-11-04T22:38:25Z",
+      "milestone": 1,
+      "labels": [
+        "documentation",
+        "entrega"
+      ],
+      "assignees": []
+    }
+  ],
+  "repositorio_publico": true,
+  "permissoes_conta": {
+    "admin": true,
+    "maintain": true,
+    "push": true,
+    "triage": true,
+    "pull": true
+  },
+  "contagem_antes": {
+    "issues_sem_pr": 0,
+    "milestones": 0
+  },
+  "milestone": {
+    "number": 1,
+    "title": "M1 — Sprint 1: Elicitação e Modelagem Inicial",
+    "html_url": "https://github.com/JoaoRoberto1/projeto-enade/milestone/1",
+    "state": "open",
+    "due_on": "2026-11-01T00:00:00Z",
+    "created_at": "2026-11-04T22:38:06Z"
+  },
+  "professor": {
+    "usuario": "marcelobezerra-dotcom",
+    "estado": "convite enviado; aceite pendente",
+    "http_envio": 201,
+    "convite_enviado_nesta_execucao": true,
+    "convite": {
+      "id": 341593824,
+      "permissions": "write",
+      "created_at": "2026-11-04T22:38:27Z",
+      "html_url": "https://github.com/JoaoRoberto1/projeto-enade/invitations"
+    },
+    "http_verificacao_final": 404,
+    "consta_em_convites_pendentes": true,
+    "print_criado": false
+  }
+}

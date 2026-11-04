@@ -1,0 +1,37 @@
+@startuml
+!pragma layout smetana
+skinparam shadowing false
+skinparam componentStyle uml2
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+top to bottom direction
+title Sistema de Apoio ao ENADE — Componentes\nArquitetura lógica proposta | Sem implementação
+component "Interface web/mobile\nWeb responsiva proposta" as UI
+component "Autenticação e autorização\nContas, papéis e perfil" as Auth
+package "Funcionalidades da aplicação" as Domain {
+  component "Gestão de questões\nCatálogo, filtros e versões" as Q
+  component "Simulados\nConfiguração, respostas e prazo" as Sim
+  component "Correção e gabaritos\nRevisão e feedback" as Corr
+  component "Estatísticas\nHistórico e agregados" as Stats
+  component "Fórum\nDiscussões e moderação" as Forum
+}
+component "Persistência de dados\nAcesso a contas, conteúdo,\ntentativas e registros" as Repo
+UI ..> Auth : sessão e perfil
+UI ..> Domain : solicita funcionalidades
+Domain ..> Auth : valida autorização
+Sim ..> Q : selecionar e fixar versões
+Sim ..> Corr : corrigir ao encerrar
+Corr ..> Q : obter gabarito versionado
+Stats ..> Corr : resultados encerrados
+Forum ..> Q : validar questão
+Forum ..> Sim : verificar tentativa ativa
+Auth ..> Repo
+Domain ..> Repo : persistência dos serviços
+legend bottom
+  Dependência tracejada aponta do consumidor para o componente utilizado.
+  Dependências do pacote resumem autorização e persistência compartilhadas.
+  Estatísticas consulta resultados por Correção; não altera respostas.
+  Separação lógica não exige microserviços, API pública ou tecnologias específicas.
+  Responsabilidades e decisões precisam de validação antes de implementação.
+endlegend
+@enduml

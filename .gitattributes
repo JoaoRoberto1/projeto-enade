@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.md text eol=lf
+*.puml text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.svg text eol=lf
+*.png binary
+*.pdf binary
+*.docx binary
+# As cópias históricas devem permanecer byte a byte iguais às fontes.
+referencias/originais/** -text -whitespace
