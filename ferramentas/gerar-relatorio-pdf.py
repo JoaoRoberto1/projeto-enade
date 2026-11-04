@@ -133,6 +133,11 @@ class Report(BaseDocTemplate):
         canvas.setFont('Doc', 9)
         canvas.drawString(54, 145, 'Versão 2.0  •  04 de novembro de 2026')
         canvas.drawString(54, 128, 'Documentação acadêmica — proposta para validação')
+        canvas.setFillColor(colors.HexColor('#246C68'))
+        canvas.setFont('Doc', 9)
+        repo_url = 'https://github.com/JoaoRoberto1/projeto-enade'
+        canvas.drawString(54, 103, repo_url)
+        canvas.linkURL(repo_url, (54, 100, 54 + pdfmetrics.stringWidth(repo_url, 'Doc', 9), 114), relative=0, thickness=0)
         canvas.setFillColor(navy)
         canvas.setFont('DocBold', 11)
         canvas.drawString(54, 61, 'FORTALEZA — CE')
