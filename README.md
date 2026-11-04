@@ -4,7 +4,7 @@ Documentação da **Atividade 1 — Trabalho P1**, da disciplina **Requisitos e 
 
 **Sprint 1 / M1:** 19/10/2026 a 01/11/2026 · **Versão documental:** 2.0, preparada em 04/11/2026 · **Valor:** 2,0 pontos.
 
-**Estado real:** documentação publicada na branch `docs/m1-requirements-and-uml`; não há aplicação implementada. M1 e 13 issues foram criados, e o convite do professor foi enviado, com aceite pendente. Entrevistas reais, validação com stakeholders e identificação completa do grupo permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md), o [estado do GitHub](evidencias/github/README.md) e o [PDF complementar](entregaveis/Trabalho_P1_ENADE_M1_v2.pdf).
+**Estado real:** documentação publicada na branch `docs/m1-requirements-and-uml`; não há aplicação implementada. M1 e 13 issues foram criados, e o convite do professor foi enviado, com aceite pendente. Entrevistas reais e validação com stakeholders permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md), o [estado do GitHub](evidencias/github/README.md) e o [PDF complementar](entregaveis/Trabalho_P1_ENADE_M1_v2.pdf).
 
 ## Problema e objetivo
 
@@ -96,13 +96,13 @@ Os critérios da P1 são visão (0,5), elicitação (0,5), requisitos (0,5) e UM
 
 | Campo | Situação |
 |---|---|
-| Integrantes do grupo | PENDENTE — informar nomes reais |
+| Integrantes do grupo | João Roberto de Oliveira Felix; Vinicius Lisboa de Albuquerque |
 | Matrículas exigidas no AVA | PENDENTE — preencher no ambiente de entrega apropriado |
 | Professor avaliador | Conta informada: `marcelobezerra-dotcom`; nome completo não fornecido |
 | Repositório real | [JoaoRoberto1/projeto-enade](https://github.com/JoaoRoberto1/projeto-enade) |
 | Branch de trabalho | `docs/m1-requirements-and-uml` |
 
-A conta proprietária do repositório não foi presumida como lista completa de integrantes. Nenhuma licença foi adicionada sem autorização.
+Os nomes dos integrantes foram informados pelo grupo. Nenhuma licença foi adicionada sem autorização.
 
 ## Verificação documental
 

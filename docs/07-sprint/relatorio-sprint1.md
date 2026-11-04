@@ -20,7 +20,7 @@ O Git está disponível. O GitHub CLI (`gh --version` e `gh auth status`) não p
 
 ## Pendências reais
 
-- Identificação dos integrantes e revisão pelo grupo.
+- Revisão da documentação pelo grupo, composto por João Roberto de Oliveira Felix e Vinicius Lisboa de Albuquerque.
 - Entrevistas, aplicação do questionário e síntese empírica.
 - Validação de requisitos, regras, metas e prioridades com stakeholders.
 - Definição de política editorial, moderação, retenção, agregação e adaptações de tempo.

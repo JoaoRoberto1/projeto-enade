@@ -21,7 +21,8 @@
 - [x] Link do GitHub pronto para submissão — branch publicada e igualdade local/remoto verificada.
 - [ ] Convite de colaboração aceito por `marcelobezerra-dotcom` — convite enviado, ainda pendente na API.
 - [ ] Captura de tela real do convite/acesso, caso exigida pelo professor — confirmação textual da API já preservada.
-- [ ] Integrantes identificados e documentação revisada pelo grupo.
+- [x] Integrantes identificados — João Roberto de Oliveira Felix e Vinicius Lisboa de Albuquerque.
+- [ ] Documentação revisada pelo grupo.
 - [ ] Requisitos e prioridades validados com stakeholders.
 - [ ] Submissão no AVA realizada e comprovante preservado.
 

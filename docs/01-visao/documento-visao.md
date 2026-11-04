@@ -5,7 +5,7 @@
 
 ## 1. Identificação do projeto
 
-Universidade de Fortaleza (Unifor), disciplina Requisitos e Modelagem de Sistemas, Atividade 1 — Trabalho P1 (2,0 pontos). Sprint 1 / M1, de 19/10/2026 a 01/11/2026. Integrantes e matrículas: **PENDENTE — preenchimento pelo grupo**. A elaboração atual ocorre após o período histórico, sem retroagir datas de execução.
+Universidade de Fortaleza (Unifor), disciplina Requisitos e Modelagem de Sistemas, Atividade 1 — Trabalho P1 (2,0 pontos). Sprint 1 / M1, de 19/10/2026 a 01/11/2026. Integrantes: **João Roberto de Oliveira Felix** e **Vinicius Lisboa de Albuquerque**. Matrículas: **PENDENTE — informar no AVA, se exigidas**. A elaboração atual ocorre após o período histórico, sem retroagir datas de execução.
 
 ## 2. Introdução
 
