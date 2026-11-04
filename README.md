@@ -78,7 +78,7 @@ Abra o SVG individual para ampliar. Arquivos PlantUML e PNG estão disponíveis 
 
 ## Elicitação e priorização
 
-A análise documental utilizou a apresentação original e o pacote anterior. Foram preparados 35 questionamentos de entrevista distribuídos entre quatro perfis e um questionário com 16 perguntas. Entrevistas, aplicação do questionário, análise de similares e oficina de validação ainda dependem de execução real. Necessidades inferidas são hipóteses rastreadas; não há percentuais de pesquisa inventados.
+A análise documental utilizou a apresentação original, o pacote anterior e a comparação das páginas públicas de Qconcursos e Estuda.com, com [fontes e limites registrados](docs/03-elicitacao/planejamento-elicitacao.md). Foram preparados 35 questionamentos de entrevista distribuídos entre quatro perfis e um questionário com 16 perguntas. Entrevistas, aplicação do questionário e oficina de validação ainda dependem de execução real. Necessidades inferidas são hipóteses rastreadas; não há percentuais de pesquisa inventados.
 
 MoSCoW prioriza consulta, simulado e feedback, com suas dependências de conteúdo e acesso. Fórum, histórico e agregados vêm depois da jornada principal; busca textual e perfil são opcionais no planejamento inicial. A **M1 é documental**: FUT-01/02/03 são agrupamentos futuros sem compromisso de execução.
 

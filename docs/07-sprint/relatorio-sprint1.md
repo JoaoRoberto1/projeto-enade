@@ -8,6 +8,8 @@ O workspace inicialmente continha somente a configuração Git, sem commits, e a
 
 Foram elaborados visão, seis perfis de stakeholders, instrumentos de elicitação, 20 RF, 14 RNF, 12 RN, 17 histórias, matriz, planejamento, modelos de colaboração e instruções de entrega. Os três diagramas foram produzidos em PlantUML, SVG e PNG. Esses números descrevem artefatos preparados, não requisitos aprovados ou funcionalidades implementadas.
 
+A comparação documental de similares foi realizada por consulta às páginas públicas oficiais de Qconcursos e Estuda.com, citadas no material acadêmico. Fontes, data, observações e limites estão no planejamento de elicitação. Nenhum teste autenticado ou resultado de eficácia foi alegado.
+
 ## Verificação e publicação
 
 O [relatório técnico](../08-entrega/validacao-tecnica.md) registra verificações e limites. A branch documental foi publicada, o milestone M1 foi criado com prazo histórico de 01/11/2026, e as 13 issues foram associadas a ele, com labels e sem responsáveis atribuídos. Todas permanecem abertas por revisão ou ações humanas pendentes. O convite do professor foi enviado; o aceite continua pendente. O [registro GitHub](../../evidencias/github/README.md) preserva as respostas reais da API.
@@ -19,7 +21,7 @@ O Git está disponível. O GitHub CLI (`gh --version` e `gh auth status`) não p
 ## Pendências reais
 
 - Identificação dos integrantes e revisão pelo grupo.
-- Entrevistas, questionário, comparação de aplicações similares e síntese empírica.
+- Entrevistas, aplicação do questionário e síntese empírica.
 - Validação de requisitos, regras, metas e prioridades com stakeholders.
 - Definição de política editorial, moderação, retenção, agregação e adaptações de tempo.
 - Aceite do convite pelo professor, se o estado no registro GitHub ainda for pendente; captura real se exigida.

@@ -18,6 +18,8 @@ Em 04/11/2026, os arquivos fornecidos contêm roteiros e um CSV com cabeçalho, 
 
 Fontes e páginas podem ser conferidas no [catálogo](../../referencias/README.md). Esses achados não são resultados de entrevistas.
 
+A [comparação documental de similares](planejamento-elicitacao.md) acrescenta leitura real das páginas públicas de Qconcursos e Estuda.com em 04/11/2026 (F07/F08). Ela sustenta perguntas de investigação sobre as necessidades existentes; não representa experiência de uso autenticado nem respostas de participantes.
+
 ## Ficha para cada entrevista real
 
 Copiar esta ficha apenas quando houver aplicação. Campos abaixo são instruções de preenchimento, não uma entrevista cadastrada.

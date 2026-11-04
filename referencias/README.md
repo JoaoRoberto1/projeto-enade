@@ -12,6 +12,8 @@ Versão documental: 2.0, preparada em **04/11/2026**. A Sprint 1 mantém o perí
 | F04 | [Inep — Enade](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade), acesso em 04/11/2026. | Contextualização institucional do exame; não aprova este produto. |
 | F05 | [W3C — WCAG 2.2](https://www.w3.org/TR/WCAG22/), acesso em 04/11/2026. | Referência técnica proposta para acessibilidade, sem alegação de conformidade de software. |
 | F06 | [PlantUML — distribuição](https://plantuml.com/download) e [layout Smetana](https://plantuml.com/smetana02), acesso em 04/11/2026. | Renderização local dos diagramas com Java e PlantUML; sem aplicação de produto. |
+| F07 | [Qconcursos — página inicial](https://www.qconcursos.com/), acesso em 04/11/2026. | Comparação documental de similares; funcionalidades apresentadas publicamente, sem teste autenticado. |
+| F08 | [Estuda.com — página inicial](https://estuda.com/), acesso em 04/11/2026. | Comparação documental de similares; funcionalidades apresentadas publicamente, sem teste autenticado. |
 
 ## Precedência e divergências
 
