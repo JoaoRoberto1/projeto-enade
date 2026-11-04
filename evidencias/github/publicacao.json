@@ -1,0 +1,127 @@
+{
+  "data_contexto_local": "2026-11-04",
+  "url": "https://github.com/JoaoRoberto1/projeto-enade",
+  "branch_publicada": "docs/m1-requirements-and-uml",
+  "url_branch": "https://github.com/JoaoRoberto1/projeto-enade/tree/docs/m1-requirements-and-uml",
+  "commit_publicacao_inicial": "62223e143cb0e2f4baf09383c950ba14f7ca889d",
+  "branch_padrao_informada_pela_api": "docs/m1-requirements-and-uml",
+  "visibilidade": "publico",
+  "readme_remoto_igual_ao_local": true,
+  "issues": [
+    {
+      "number": 1,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 2,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 3,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 4,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 5,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 6,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 7,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 8,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 9,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 10,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 11,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 12,
+      "state": "open",
+      "milestone": 1
+    },
+    {
+      "number": 13,
+      "state": "open",
+      "milestone": 1
+    }
+  ],
+  "milestone": {
+    "number": 1,
+    "title": "M1 — Sprint 1: Elicitação e Modelagem Inicial",
+    "state": "open",
+    "due_on": "2026-11-01T00:00:00Z",
+    "html_url": "https://github.com/JoaoRoberto1/projeto-enade/milestone/1"
+  },
+  "professor": {
+    "usuario": "marcelobezerra-dotcom",
+    "http_colaborador": 404,
+    "convite_pendente": true,
+    "aceite_confirmado": false
+  },
+  "consultas": [
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:15 GMT"
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/git/ref/heads/docs/m1-requirements-and-uml",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:16 GMT"
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/contents/README.md?ref=docs/m1-requirements-and-uml",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:16 GMT"
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues?state=all&per_page=100",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:17 GMT"
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/milestones/1",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:18 GMT"
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/collaborators/marcelobezerra-dotcom",
+      "http": 404
+    },
+    {
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/invitations?per_page=100",
+      "http": 200,
+      "data_servidor": "Wed, 04 Nov 2026 22:41:19 GMT"
+    }
+  ],
+  "observacao": "Fotografia da primeira publicação. Commits posteriores de consolidação são consultáveis no histórico da branch; nenhum merge ou push forçado realizado."
+}

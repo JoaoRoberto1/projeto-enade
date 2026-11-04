@@ -16,11 +16,11 @@ if args.dependencias:
 import markdown
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
-from reportlab.lib.pagesizes import A4
+from reportlab.lib.pagesizes import A4, A3, landscape
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle, Image, Preformatted, KeepTogether
+from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate, Paragraph, Spacer, PageBreak, NextPageTemplate, Table, TableStyle, Image
 from reportlab.platypus.tableofcontents import TableOfContents
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,18 +51,21 @@ cover = ParagraphStyle('CoverDoc', parent=styles['Title'], fontName='DocBold', f
 
 width, height = A4
 usable_w, usable_h = width - 88, height - 100
+wide_width, wide_height = landscape(A3)
 
 class Report(BaseDocTemplate):
     def __init__(self, path):
         super().__init__(path, pagesize=A4, leftMargin=44, rightMargin=44, topMargin=48, bottomMargin=52, title='Sistema de Apoio ao ENADE — P1 / M1 — versão 2.0', author='Grupo acadêmico — integrantes pendentes')
         self.addPageTemplates(PageTemplate(id='normal', frames=Frame(44,52,usable_w,usable_h,id='body',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0), onPage=self.decorate))
+        self.addPageTemplates(PageTemplate(id='wide', pagesize=landscape(A3), frames=Frame(44,52,wide_width-88,wide_height-100,id='widebody',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0), onPage=self.decorate))
     def decorate(self, canvas, doc):
         canvas.saveState()
         canvas.setFont('Doc', 8)
         canvas.setFillColor(colors.HexColor('#52616b'))
-        canvas.drawString(44, height-28, 'UNIFOR  |  Requisitos e Modelagem de Sistemas  |  P1 / M1')
+        page_width, page_height = canvas._pagesize
+        canvas.drawString(44, page_height-28, 'UNIFOR  |  Requisitos e Modelagem de Sistemas  |  P1 / M1')
         canvas.drawString(44, 28, 'Versão 2.0 • 04/11/2026 • Propostas para validação')
-        canvas.drawRightString(width-44, 28, str(doc.page))
+        canvas.drawRightString(page_width-44, 28, str(doc.page))
         canvas.restoreState()
     def afterFlowable(self, flowable):
         if getattr(flowable, '_doc_title', False):
@@ -118,9 +121,13 @@ def convert(element, path):
                 source = path.parent / img.get('src')
                 if source.suffix == '.svg': source = source.with_suffix('.png')
                 im = Image(str(source))
-                scale = min(usable_w/im.imageWidth, (usable_h-85)/im.imageHeight, 1)
+                wide = path.parent.name == 'implantacao'
+                image_width = wide_width-88 if wide else usable_w
+                scale = min(image_width/im.imageWidth, (usable_h-85)/im.imageHeight, 1)
                 im.drawWidth,im.drawHeight=im.imageWidth*scale,im.imageHeight*scale
                 story.extend([im,Spacer(1,8)])
+                if wide:
+                    story.extend([NextPageTemplate('normal'),PageBreak()])
         else:
             story.append(Paragraph(inline(element,path),styles['BodyText']))
     elif tag in ('ul','ol'):
@@ -149,9 +156,37 @@ def convert(element, path):
     else:
         for child in element: convert(child,path)
 
-files = sorted((ROOT/'docs').rglob('*.md'))
+ordered = [
+    '01-visao/documento-visao.md',
+    '02-stakeholders/identificacao-stakeholders.md',
+    '03-elicitacao/planejamento-elicitacao.md',
+    '03-elicitacao/roteiro-entrevistas.md',
+    '03-elicitacao/questionario.md',
+    '03-elicitacao/resultados-entrevistas.md',
+    '03-elicitacao/validacao-requisitos.md',
+    '04-requisitos/requisitos-funcionais.md',
+    '04-requisitos/requisitos-nao-funcionais.md',
+    '04-requisitos/regras-negocio.md',
+    '04-requisitos/matriz-rastreabilidade.md',
+    '05-backlog/backlog-priorizado.md',
+    '05-backlog/definicao-pronto.md',
+    '06-modelagem-uml/README.md',
+    '06-modelagem-uml/casos-de-uso/README.md',
+    '06-modelagem-uml/componentes/README.md',
+    '06-modelagem-uml/implantacao/README.md',
+    '07-sprint/planejamento-m1.md',
+    '07-sprint/relatorio-sprint1.md',
+    '07-sprint/issues/README.md',
+    *[f'07-sprint/issues/M1-{n:02d}.md' for n in range(1,14)],
+    '08-entrega/checklist-entrega.md',
+    '08-entrega/instrucoes-ava.md',
+    '08-entrega/validacao-tecnica.md',
+]
+files = [ROOT/'docs'/p for p in ordered]
 files += [ROOT/'evidencias/entrevistas/README.md',ROOT/'evidencias/github/README.md',ROOT/'referencias/README.md']
 for path in files:
+    if path.parent.name == 'implantacao':
+        story.append(NextPageTemplate('wide'))
     story.append(PageBreak())
     rendered=markdown.markdown(path.read_text(encoding='utf-8'),extensions=['tables','fenced_code'])
     root=ET.fromstring('<root>'+rendered+'</root>')

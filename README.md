@@ -4,7 +4,7 @@ Documentação da **Atividade 1 — Trabalho P1**, da disciplina **Requisitos e 
 
 **Sprint 1 / M1:** 19/10/2026 a 01/11/2026 · **Versão documental:** 2.0, preparada em 04/11/2026 · **Valor:** 2,0 pontos.
 
-**Estado real:** documentação proposta; não há aplicação implementada. Entrevistas reais, validação com stakeholders e identificação completa do grupo permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md) e o [estado do GitHub](evidencias/github/README.md).
+**Estado real:** documentação publicada na branch `docs/m1-requirements-and-uml`; não há aplicação implementada. M1 e 13 issues foram criados, e o convite do professor foi enviado, com aceite pendente. Entrevistas reais, validação com stakeholders e identificação completa do grupo permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md), o [estado do GitHub](evidencias/github/README.md) e o [PDF complementar](entregaveis/Trabalho_P1_ENADE_M1_v2.pdf).
 
 ## Problema e objetivo
 

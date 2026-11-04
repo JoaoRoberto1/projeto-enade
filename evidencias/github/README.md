@@ -18,7 +18,9 @@ O repositório pertence a uma conta pessoal. O convite padrão concede colabora�
 
 ## Publicação da branch
 
-Publicação Git pendente da etapa final de commit e push; a URL do remoto existente é real. Este registro será atualizado após confirmação remota.
+Branch publicada: [docs/m1-requirements-and-uml](https://github.com/JoaoRoberto1/projeto-enade/tree/docs/m1-requirements-and-uml). A [verificação da publicação](publicacao.json) confirmou o primeiro commit `62223e143cb0e2f4baf09383c950ba14f7ca889d` no remoto e a igualdade do README local/remoto. Consolidações posteriores podem ser consultadas no histórico da branch.
+
+Como o repositório não tinha commits nem uma `main` existente, o GitHub passou a informar a branch documental como padrão após o primeiro push. Nenhuma `main` foi criada ou sobrescrita; não houve merge nem push forçado. A visibilidade pública preexistente foi preservada. O professor pode ler os documentos pelo link público; o vínculo de colaborador ainda depende do aceite do convite.
 
 
 ## Como verificar e obter evidência real

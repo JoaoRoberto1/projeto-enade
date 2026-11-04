@@ -10,7 +10,9 @@ Foram elaborados visão, seis perfis de stakeholders, instrumentos de elicitaç�
 
 ## Verificação e publicação
 
-O [relatório técnico](../08-entrega/validacao-tecnica.md) registra verificações e limites. O [registro GitHub](../../evidencias/github/README.md) informa a publicação, milestone, issues e situação do professor com base nas respostas reais da API.
+O [relatório técnico](../08-entrega/validacao-tecnica.md) registra verificações e limites. A branch documental foi publicada, o milestone M1 foi criado com prazo histórico de 01/11/2026, e as 13 issues foram associadas a ele, com labels e sem responsáveis atribuídos. Todas permanecem abertas por revisão ou ações humanas pendentes. O convite do professor foi enviado; o aceite continua pendente. O [registro GitHub](../../evidencias/github/README.md) preserva as respostas reais da API.
+
+Um [PDF complementar da versão atual](../../entregaveis/Trabalho_P1_ENADE_M1_v2.pdf) consolida os documentos, diagramas e registros de entrega. Ele não substitui os Markdown nem elimina as pendências de campo.
 
 O Git está disponível. O GitHub CLI (`gh --version` e `gh auth status`) não pôde ser executado porque `gh` não está instalado. A API do GitHub foi acessada com a credencial já configurada no Git, sem gravação do segredo em arquivos. A consulta inicial confirmou permissão administrativa e ausência de issues/milestones.
 

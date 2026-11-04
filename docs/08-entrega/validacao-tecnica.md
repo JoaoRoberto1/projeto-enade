@@ -10,6 +10,7 @@ Preparação em 04/11/2026. O validador foi executado sem erros após correção
 | Identificadores | 20 RF, 14 RNF, 12 RN, 17 US e 14 UC, sem definições duplicadas |
 | Rastreabilidade | 20 linhas de RF; regras recíprocas, histórias e casos de uso cobertos; dependências sem ciclos |
 | UML | Três fontes aceitas pelo PlantUML; três SVG e três PNG gerados e inspecionados visualmente |
+| PDF complementar | Consolidação de 39 documentos; texto extraído para conferência e páginas representativas renderizadas para inspeção visual |
 | Fontes preservadas | 18 cópias com SHA-256 correspondente; 17 arquivos do pacote conferidos contra o ZIP |
 | Integridade acadêmica | Coleta, participantes, respostas e aprovações ausentes permanecem pendentes; nenhuma pesquisa fictícia incluída |
 | Credenciais | Padrões conhecidos pesquisados e arquivos preparados revisados; nenhum segredo identificado |
