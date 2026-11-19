@@ -22,3 +22,7 @@ Questões, Simulados, Correção, Estatísticas e Fórum consultam Autenticaçã
 As dependências do pacote Funcionalidades da aplicação resumem as chamadas dos seus componentes para autorização e persistência. Estatísticas delega leitura dos resultados a Correção, enquanto os outros componentes persistem seus próprios dados. A interface solicita as funcionalidades contidas no pacote; essa agregação evita repetir conexões na figura sem omitir as responsabilidades da tabela.
 
 O diagrama reduz detalhes internos de persistência para manter legibilidade. A separação lógica é uma hipótese arquitetural ligada a RNF-010; não comprova manutenibilidade de software ainda inexistente.
+
+## Revisão P2 / M2
+
+Versão revisada em 19/11/2026. Consulte a [SRS 3.0](../../09-srs/SRS.md) para os fluxos detalhados e o [relatório de consistência](../../10-consistencia/revisao-p2.md) para a ligação com as telas. O desenho da aplicação-alvo não representa backend ou banco implementado pelo protótipo.

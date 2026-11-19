@@ -1,0 +1,172 @@
+{
+  "data_contexto": "2026-11-19",
+  "escopo": "Integridade documental e registros técnicos; não validação com stakeholders.",
+  "resultado": "PASS",
+  "verificacoes": [
+    {
+      "verificacao": "RF únicos e completos",
+      "resultado": "PASS",
+      "detalhes": "20"
+    },
+    {
+      "verificacao": "RNF únicos e completos",
+      "resultado": "PASS",
+      "detalhes": "14"
+    },
+    {
+      "verificacao": "RN únicos e completos",
+      "resultado": "PASS",
+      "detalhes": "12"
+    },
+    {
+      "verificacao": "UC únicos e completos",
+      "resultado": "PASS",
+      "detalhes": "14"
+    },
+    {
+      "verificacao": "Estrutura SRS: ## 1. Introdução",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Estrutura SRS: ## 2. Descrição geral",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Estrutura SRS: ## 3. Requisitos específicos",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-001 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-002 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-003 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-004 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-005 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-006 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-007 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-008 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-009 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-010 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-011 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-012 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-013 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC-014 completo",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Matriz cobre 20 RF",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "17 telas com wireframe",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Telas cobrem os 14 UC",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Cinco modelos com SVG e PNG",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "UC definidos no UML",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Quatro atores concretos",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "14 cenários do protótipo aprovados",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "PDF: SRS_P2_ENADE_v3.pdf",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "PDF: Wireframes_P2_ENADE.pdf",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "PDF: Entrega_P2_ENADE.pdf",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Links locais dos documentos existem",
+      "resultado": "PASS",
+      "detalhes": ""
+    },
+    {
+      "verificacao": "Capturas PNG válidas",
+      "resultado": "PASS",
+      "detalhes": ""
+    }
+  ]
+}

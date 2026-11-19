@@ -17,3 +17,7 @@ O dispositivo do usuário hospeda um navegador, ambiente de execução do client
 | Hospedagem | Provedor, capacidade e divisão física a definir | RNF-002, RNF-003, RNF-013 |
 
 As ligações entre nós indicam canais de comunicação, sem fixar produtos. Conexão da aplicação ao SGBD e transferência de cópias precisam de proteção adequada, a definir no projeto técnico. Separação em nós lógicos não exige máquinas físicas distintas. Metas de desempenho, escala e disponibilidade continuam propostas, sem evidência de atendimento.
+
+## Revisão P2 / M2
+
+Versão revisada em 19/11/2026. Consulte a [SRS 3.0](../../09-srs/SRS.md) para os fluxos detalhados e o [relatório de consistência](../../10-consistencia/revisao-p2.md) para a ligação com as telas. O desenho da aplicação-alvo não representa backend ou banco implementado pelo protótipo.

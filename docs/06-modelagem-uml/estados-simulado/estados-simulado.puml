@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+title Estados da tentativa — UC-005\nSRS 3.0 | RF-006/007/008/020 | RN-004/005/007/010
+[*] --> Configuracao : solicitar simulado
+Configuracao --> Configuracao : valores inválidos / informar erro
+Configuracao --> EmAndamento : iniciar [configuração válida]\n/ fixar versões, início e prazo
+EmAndamento --> EmAndamento : enviar [titular, vínculo válido e antes do prazo]\n/ registrar ou substituir resposta
+EmAndamento --> EmAndamento : enviar [inválido ou não autorizado]\n/ recusar sem alterar resposta anterior
+EmAndamento --> Confirmacao : solicitar conclusão
+Confirmacao --> EmAndamento : cancelar [antes do prazo]
+Confirmacao --> Encerrada : confirmar / encerrar uma vez
+EmAndamento --> Encerrada : prazo atingido / encerrar uma vez
+Confirmacao --> Encerrada : prazo atingido / encerrar uma vez
+Encerrada --> Encerrada : consultar resultado / corrigir de forma idempotente
+Encerrada --> Encerrada : reenviar resposta ou conclusão / não alterar resultado
+Encerrada --> [*] : sair da visualização
+note right of EmAndamento
+  No produto, tempo e transições são decididos no servidor.
+  O protótipo simula o prazo no navegador.
+  Confirmacao é um estado de interação; o prazo continua correndo.
+end note
+note right of Encerrada
+  Sem reabertura.
+  Uma nova prática cria outra tentativa.
+  Correção usa as versões fixadas no início.
+end note
+@enduml

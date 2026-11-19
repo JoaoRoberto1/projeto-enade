@@ -34,3 +34,7 @@ O modelo não concede ao professor acesso ao desempenho individual de alunos. UC
 Estudante autenticado configura filtros, quantidade e duração; sistema valida a disponibilidade; estudante confirma início; sistema fixa versões e prazo; respostas são confirmadas até o limite; conclusão manual confirmada ou expiração encerra a tentativa; sistema corrige uma única vez e libera resultado e gabarito. Exceções: configuração inviável, alternativa inválida, acesso de outro titular, perda de rede e envio recebido no prazo ou depois são tratados conforme RF/RN. A indisponibilidade não autoriza registrar uma resposta que não chegou.
 
 Os fluxos de todos os casos podem ser lidos nos [RF](../../04-requisitos/requisitos-funcionais.md); as ligações estão na [matriz](../../04-requisitos/matriz-rastreabilidade.md).
+
+## Revisão P2 / M2
+
+Versão revisada em 19/11/2026. Consulte a [SRS 3.0](../../09-srs/SRS.md) para os fluxos detalhados e o [relatório de consistência](../../10-consistencia/revisao-p2.md) para a ligação com as telas. O desenho da aplicação-alvo não representa backend ou banco implementado pelo protótipo.

@@ -5,14 +5,14 @@ skinparam componentStyle uml2
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
 top to bottom direction
-title Sistema de Apoio ao ENADE — Componentes\nArquitetura lógica proposta | Sem implementação
+title Sistema de Apoio ao ENADE — Componentes\nArquitetura-alvo | SRS 3.0 | P2 / M2
 component "Interface web/mobile\nWeb responsiva proposta" as UI
 component "Autenticação e autorização\nContas, papéis e perfil" as Auth
 package "Funcionalidades da aplicação" as Domain {
   component "Gestão de questões\nCatálogo, filtros e versões" as Q
-  component "Simulados\nConfiguração, respostas e prazo" as Sim
-  component "Correção e gabaritos\nRevisão e feedback" as Corr
-  component "Estatísticas\nHistórico e agregados" as Stats
+component "Simulados\nRF-006/007/020\nConfiguração, respostas e prazo" as Sim
+component "Correção e gabaritos\nRF-005/008/014\nRevisão e feedback" as Corr
+component "Estatísticas\nRF-009/010/015\nHistórico e agregados" as Stats
   component "Fórum\nDiscussões e moderação" as Forum
 }
 component "Persistência de dados\nAcesso a contas, conteúdo,\ntentativas e registros" as Repo
@@ -33,5 +33,7 @@ legend bottom
   Estatísticas consulta resultados por Correção; não altera respostas.
   Separação lógica não exige microserviços, API pública ou tecnologias específicas.
   Responsabilidades e decisões precisam de validação antes de implementação.
+  O protótipo P2 simula essas capacidades em HTML/CSS/JS no navegador.
+  Autorização, relógio de servidor e banco real não foram implementados na P2.
 endlegend
 @enduml

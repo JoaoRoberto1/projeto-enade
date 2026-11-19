@@ -1,10 +1,36 @@
 # Sistema de Apoio ao ENADE
 
+## Entrega atual — P2 / M2
+
+**João Roberto de Oliveira Felix e Vinicius Lisboa de Albuquerque** · Requisitos e Modelagem de Sistemas · Unifor.<br/>
+**Sprint 2:** 02/11 a 22/11/2026. **Prazo no AVA:** 23/11/2026 às 00h00, America/Sao_Paulo.
+
+A P2 evolui a base da P1 com SRS, casos de uso detalhados, revisão de consistência e o protótipo navegável **Trilha ENADE**. O protótipo usa dados fictícios; a aplicação de produção e a validação com usuários ainda são etapas futuras.
+
+| Entrega | Acesso |
+|---|---|
+| SRS 3.0, com 20 RF, 14 RNF, 12 regras e 14 casos de uso | [Markdown](docs/09-srs/SRS.md) · [PDF](entregaveis/SRS_P2_ENADE_v3.pdf) |
+| Revisão e matriz de consistência | [Requisitos → casos → regras → telas → verificações](docs/10-consistencia/revisao-p2.md) |
+| UML atualizado | [Cinco diagramas, com fontes e imagens](docs/06-modelagem-uml/README.md) |
+| Wireframes | [Índice HTML](prototipo/wireframes.html) · [17 fontes SVG](prototipo/wireframes/) · [PDF](entregaveis/Wireframes_P2_ENADE.pdf) |
+| Protótipo navegável | [Abrir Trilha ENADE](https://trilha-enade-p2-joao-vinicius.aloftwalrus8.chatgpt.site) · [Código](prototipo/) · [Guia de navegação](docs/11-prototipos/README.md) |
+| Verificação técnica e prints | [Evidências P2](evidencias/p2/README.md) |
+| Sprint 2 e tarefas | [Planejamento](docs/12-sprint2/planejamento-m2.md) · [Relatório](docs/12-sprint2/relatorio-m2.md) · [Milestone M2](https://github.com/JoaoRoberto1/projeto-enade/milestone/2) |
+| Envio no AVA | [Instruções e links](docs/12-sprint2/entrega-ava.md) · [Folha em PDF](entregaveis/Entrega_P2_ENADE.pdf) |
+
+**Acesso do avaliador:** o protótipo foi publicado inicialmente com acesso privado. A escolha de compartilhamento do grupo deve ser concluída antes do envio do link ao professor. O [registro de publicação](evidencias/p2/publicacao.json) indica o estado confirmado.
+
+Para executar localmente: `python -m http.server 8765 --directory prototipo` e abrir `http://localhost:8765`. As quatro contas de demonstração aparecem na tela de entrada. Nenhuma credencial real deve ser utilizada.
+
+Verificação documental: `python ferramentas/validar-p2.py`. Reprodução dos testes de navegação: [instruções](evidencias/p2/README.md). As fontes P1 continuam preservadas; a SRS é a especificação consolidada para a P2.
+
+## Base histórica — P1 / M1
+
 Documentação da **Atividade 1 — Trabalho P1**, da disciplina **Requisitos e Modelagem de Sistemas**, **Universidade de Fortaleza (Unifor)**. O projeto especifica uma solução web/mobile para preparação de estudantes, com elicitação de requisitos e modelagem UML inicial.
 
 **Sprint 1 / M1:** 19/10/2026 a 01/11/2026 · **Versão documental:** 2.0, preparada em 04/11/2026 · **Valor:** 2,0 pontos.
 
-**Estado real:** documentação publicada na branch `docs/m1-requirements-and-uml`; não há aplicação implementada. M1 e 13 issues foram criados, e o convite do professor foi enviado, com aceite pendente. Entrevistas reais e validação com stakeholders permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md), o [estado do GitHub](evidencias/github/README.md) e o [PDF complementar](entregaveis/Trabalho_P1_ENADE_M1_v2.pdf).
+**Registro histórico da P1 (04/11/2026):** documentação publicada na branch `docs/m1-requirements-and-uml`, sem aplicação naquela etapa. M1 e 13 issues foram criados, e o convite do professor foi enviado, com aceite pendente no registro. Entrevistas reais e validação com stakeholders permanecem pendentes. O prazo histórico não foi alterado. Consulte o [relatório da Sprint](docs/07-sprint/relatorio-sprint1.md), o [estado do GitHub](evidencias/github/README.md) e o [PDF complementar](entregaveis/Trabalho_P1_ENADE_M1_v2.pdf).
 
 ## Problema e objetivo
 
@@ -111,7 +137,7 @@ python ferramentas/validar-documentacao.py
 ./ferramentas/renderizar-diagramas.ps1 -PlantUmlJar 'C:\caminho\plantuml-java8-1.2026.9.jar'
 ```
 
-Os scripts tratam apenas dos artefatos acadêmicos. Não há frontend, backend, API ou banco executável.
+Os scripts acima tratam dos artefatos documentais da P1. Na P2 foi adicionado o frontend demonstrativo em `prototipo/`; não há backend, API ou banco de produção.
 
 ## Referências
 

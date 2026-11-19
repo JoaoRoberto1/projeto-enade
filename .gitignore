@@ -13,4 +13,6 @@ __pycache__/
 *.key
 evidencias/entrevistas/privado/
 entregaveis/temporarios/
+# Resumo para apresentação, mantido apenas no computador
+/entregaveis/Visao_Geral_Repositorio_ENADE.pdf
 .ferramentas/

@@ -1,0 +1,121 @@
+[
+  {
+    "id": "T01",
+    "titulo": "Acesso",
+    "rota": "login",
+    "casos": "UC-001",
+    "conteudo": "E-mail, senha demonstrativa, entrada e atalhos dos quatro perfis."
+  },
+  {
+    "id": "T02",
+    "titulo": "Cadastro",
+    "rota": "cadastro",
+    "casos": "UC-013",
+    "conteudo": "Nome, e-mail e senha demonstrativa; somente conta de estudante."
+  },
+  {
+    "id": "T03",
+    "titulo": "Visão geral",
+    "rota": "inicio",
+    "casos": "UC-002, UC-005, UC-006",
+    "conteudo": "Acesso às jornadas, estado inicial e resumo do histórico local."
+  },
+  {
+    "id": "T04",
+    "titulo": "Banco de questões",
+    "rota": "questoes",
+    "casos": "UC-002",
+    "conteudo": "Busca, filtros combinados, cartões e estado vazio."
+  },
+  {
+    "id": "T05",
+    "titulo": "Prática e comentário",
+    "rota": "questao/Q001",
+    "casos": "UC-003, UC-004",
+    "conteudo": "Enunciado, alternativas, confirmação, feedback e origem."
+  },
+  {
+    "id": "T06",
+    "titulo": "Configurar simulado",
+    "rota": "configurar",
+    "casos": "UC-005",
+    "conteudo": "Filtros, quantidade, duração e confirmação de início."
+  },
+  {
+    "id": "T07",
+    "titulo": "Responder simulado",
+    "rota": "simulado",
+    "casos": "UC-005",
+    "conteudo": "Cronômetro, navegação, salvar resposta e concluir com confirmação."
+  },
+  {
+    "id": "T08",
+    "titulo": "Resultado",
+    "rota": "resultado",
+    "casos": "UC-004, UC-005",
+    "conteudo": "Acertos, erros, omissões e comentários por questão."
+  },
+  {
+    "id": "T09",
+    "titulo": "Meu desempenho",
+    "rota": "desempenho",
+    "casos": "UC-006",
+    "conteudo": "Histórico, gráfico por área e tabela textual."
+  },
+  {
+    "id": "T10",
+    "titulo": "Discussão",
+    "rota": "discussao/Q001",
+    "casos": "UC-007",
+    "conteudo": "Comentários da questão e campo para publicar contribuição."
+  },
+  {
+    "id": "T11",
+    "titulo": "Meu perfil",
+    "rota": "perfil",
+    "casos": "UC-014",
+    "conteudo": "Nome editável, curso opcional e identificação de campos restritos."
+  },
+  {
+    "id": "T12",
+    "titulo": "Gestão de questões",
+    "rota": "administracao",
+    "casos": "UC-010",
+    "conteudo": "Lista com versões, situação, revisão e ações de publicação/arquivo."
+  },
+  {
+    "id": "T13",
+    "titulo": "Editar rascunho",
+    "rota": "editar/Q010",
+    "casos": "UC-008, UC-010",
+    "conteudo": "Enunciado, alternativas, fonte, classificação e comentário."
+  },
+  {
+    "id": "T14",
+    "titulo": "Revisão pedagógica",
+    "rota": "revisao",
+    "casos": "UC-008, UC-004",
+    "conteudo": "Conferir gabarito; aprovar versão ou solicitar ajustes."
+  },
+  {
+    "id": "T15",
+    "titulo": "Indicadores do curso",
+    "rota": "indicadores",
+    "casos": "UC-009",
+    "conteudo": "Bloqueio sem autorização e exemplo fictício de supressão."
+  },
+  {
+    "id": "T16",
+    "titulo": "Contas e permissões",
+    "rota": "usuarios",
+    "casos": "UC-012",
+    "conteudo": "Papéis, conta ativa e justificativa; proteção do último administrador."
+  },
+  {
+    "id": "T17",
+    "titulo": "Moderação",
+    "rota": "moderacao",
+    "casos": "UC-011",
+    "conteudo": "Comentários, motivo obrigatório e ação de ocultação."
+  }
+]

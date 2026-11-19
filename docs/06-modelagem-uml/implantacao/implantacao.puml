@@ -4,7 +4,7 @@ skinparam shadowing false
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
 left to right direction
-title Sistema de Apoio ao ENADE — Implantação\nDistribuição conceitual proposta | Nenhum ambiente implantado
+title Sistema de Apoio ao ENADE — Implantação\nArquitetura-alvo e protótipo P2 | 19/11/2026
 node "Dispositivo do usuário\nComputador, celular ou tablet" as Device <<device>> {
   node "Navegador compatível" as Browser <<executionEnvironment>> {
     artifact "Cliente web responsivo" as Client
@@ -28,10 +28,20 @@ cloud "Infraestrutura de hospedagem proposta\nProvedor e capacidade a definir" {
 Browser -- App : HTTPS
 App -- DB : conexão protegida\nrede restrita
 DB -- Storage : cópia protegida\nprocedimento a validar
+package "Demonstração P2 — separada da aplicação-alvo" {
+  node "Hospedagem estática" as Static {
+    artifact "HTML, CSS, JavaScript\nWireframes SVG" as ProtoFiles
+  }
+  node "Navegador de demonstração" as DemoBrowser {
+    artifact "Interface e regras simuladas\nlocalStorage com dados fictícios" as Demo
+  }
+  Static -- DemoBrowser : entrega de arquivos\nHTTPS quando publicado
+}
 legend bottom
   Servidores são nós lógicos: podem compartilhar ou separar recursos físicos.
   Cliente acessa a aplicação; não acessa diretamente o servidor de dados.
   O artefato da aplicação reúne os componentes lógicos do diagrama de componentes.
   Backup e dimensionamento são propostas ligadas a RNF-008 e RNF-013.
+  A demonstração estática não possui servidor de autenticação ou banco de produção.
 endlegend
 @enduml

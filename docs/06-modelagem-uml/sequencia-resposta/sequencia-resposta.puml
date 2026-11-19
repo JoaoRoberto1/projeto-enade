@@ -1,0 +1,44 @@
+@startuml
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+title Enviar resposta de simulado — sequência da aplicação-alvo\nUC-005 | RF-020 | RN-007/010/012 | P2 / M2
+actor Estudante
+boundary Interface
+control "Simulados" as Sim
+control "Autenticação" as Auth
+database "Persistência" as DB
+Estudante -> Interface : escolher alternativa e salvar
+Interface -> Sim : enviar(tentativa, questão, alternativa, comando)
+Sim -> Auth : verificar titular e permissões vigentes
+Auth --> Sim : autorização
+alt sem autorização
+  Sim --> Interface : acesso negado, sem dados do titular
+else autorizado
+  critical verificação e gravação consistentes
+    Sim -> DB : obter estado, prazo, versão e comando anterior
+    DB --> Sim : dados da tentativa
+    alt comando já processado
+      Sim --> Interface : retornar o mesmo resultado do comando
+    else tentativa encerrada ou recebimento >= prazo
+      Sim --> Interface : rejeitar; manter última resposta aceita
+    else questão ou alternativa inválida
+      Sim --> Interface : rejeitar vínculo inválido
+    else tentativa aberta e resposta válida
+      Sim -> DB : registrar/substituir resposta aceita
+      alt gravação concluída
+        DB --> Sim : confirmação persistida
+        Sim --> Interface : resposta salva
+      else falha de persistência
+        DB --> Sim : falha; sem confirmação
+        Sim --> Interface : informar falha; não alegar salvamento
+      end
+    end
+  end
+end
+Interface --> Estudante : apresentar resultado da operação
+note over Interface, DB
+  Diagrama de comportamento requerido do produto futuro.
+  O protótipo estático simula a interação; não implementa servidor,
+  transações distribuídas nem a garantia temporal de RNF-009.
+end note
+@enduml

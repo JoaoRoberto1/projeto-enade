@@ -1,5 +1,14 @@
 # Entregáveis complementares
 
+## Trabalho P2 — Sprint 2 / M2
+
+- [SRS_P2_ENADE_v3.pdf](SRS_P2_ENADE_v3.pdf): especificação consolidada com introdução, descrição geral, requisitos detalhados e 14 casos de uso.
+- [Wireframes_P2_ENADE.pdf](Wireframes_P2_ENADE.pdf): mapa de navegação e 17 wireframes de baixa fidelidade.
+- [Entrega_P2_ENADE.pdf](Entrega_P2_ENADE.pdf): folha de identificação e links clicáveis para o AVA.
+- [Orientações de entrega e situação do acesso](../docs/12-sprint2/entrega-ava.md).
+
+As fontes editáveis e os registros de verificação ficam no repositório. O resumo particular `Visao_Geral_Repositorio_ENADE.pdf` continua ignorado pelo Git e não integra esta entrega.
+
 A versão atual é composta pelos documentos Markdown e pelos três conjuntos PlantUML/SVG/PNG acessíveis no [README principal](../README.md). O [checklist](../docs/08-entrega/checklist-entrega.md) informa pendências reais.
 
 [Baixar o relatório PDF da versão 2.0](Trabalho_P1_ENADE_M1_v2.pdf), com **84 páginas**. O relatório consolida os 39 documentos de `docs/` e de orientação sobre evidências/fontes, com sumário navegável e os três diagramas. Tabelas largas são apresentadas como registros rotulados para preservar leitura em A4; o diagrama de implantação recebe uma página A3 horizontal para manter os rótulos legíveis. As pendências reais permanecem explícitas.

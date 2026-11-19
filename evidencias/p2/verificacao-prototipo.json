@@ -1,0 +1,103 @@
+{
+  "data_contexto": "2026-11-19",
+  "ambiente": {
+    "browser": "157.0.8103.79",
+    "viewport": "1440x1000; móvel 390x844",
+    "natureza": "Verificação automatizada do protótipo local; não validação com usuários nem teste de produção"
+  },
+  "cenarios": [
+    {
+      "id": "PT-01",
+      "titulo": "Cadastro duplicado, acesso demonstrativo e papéis",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-02",
+      "titulo": "Filtros por interseção e estado vazio",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-03",
+      "titulo": "Prática individual, obrigatoriedade e feedback",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-04",
+      "titulo": "Configuração inviável e início de simulado",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-05",
+      "titulo": "Registrar, substituir, retomar e proteger feedback",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-06",
+      "titulo": "Confirmação, omissão, correção e encerramento único",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-07",
+      "titulo": "Comentários, espaços em branco e isolamento",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-08",
+      "titulo": "Perfil próprio e campos restritos",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-09",
+      "titulo": "Revisão separada de publicação e invalidação após edição",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-10",
+      "titulo": "Moderação com motivo e último administrador protegido",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-11",
+      "titulo": "Agregados bloqueados e supressão no cenário fictício",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-12",
+      "titulo": "Expiração e limite temporal simulados",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-13",
+      "titulo": "Responsividade, menu e ausência de erros JavaScript",
+      "resultado": "PASS"
+    },
+    {
+      "id": "PT-14",
+      "titulo": "Wireframes acessíveis e PDF de baixa fidelidade",
+      "resultado": "PASS"
+    }
+  ],
+  "prints": [
+    "prints/T01-acesso.png",
+    "prints/T02-cadastro-erro.png",
+    "prints/T03-visao-geral.png",
+    "prints/T04-banco.png",
+    "prints/T05-pratica-feedback.png",
+    "prints/T06-configurar.png",
+    "prints/T07-simulado.png",
+    "prints/T08-resultado.png",
+    "prints/T09-desempenho.png",
+    "prints/T10-discussao.png",
+    "prints/T11-perfil.png",
+    "prints/T12-gestao.png",
+    "prints/T13-rascunho.png",
+    "prints/T14-revisao.png",
+    "prints/T17-moderacao.png",
+    "prints/T16-permissoes.png",
+    "prints/T15-indicadores-bloqueados.png",
+    "prints/T15-indicadores-exemplo.png",
+    "prints/mobile-banco.png"
+  ],
+  "resultado": "PASS",
+  "erros_javascript": []
+}

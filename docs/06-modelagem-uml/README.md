@@ -19,3 +19,13 @@ Para reproduzir, obtenha o JAR em [PlantUML](https://plantuml.com/download) e pa
 ```
 
 O script verifica a sintaxe e gera SVG/PNG. Os binários da ferramenta não são versionados. A renderização valida sintaxe; a consistência conceitual depende também de revisão dos RF/RN e das explicações dos modelos.
+
+## Evolução P2 / M2 — 19/11/2026
+
+A SRS 3.0 detalha os mesmos 14 casos de uso e preserva os quatro papéis concretos. Os modelos de casos de uso, componentes e implantação foram atualizados. A implantação distingue a aplicação-alvo da demonstração estática em navegador.
+
+- [Estados da tentativa](estados-simulado/README.md): respostas, confirmação, expiração e encerramento.
+- [Sequência de RF-020](sequencia-resposta/README.md): autorização, recebimento antes do prazo e gravação consistente requerida.
+- [SRS](../09-srs/SRS.md) e [revisão de consistência](../10-consistencia/revisao-p2.md).
+
+São cinco diagramas na P2. A base histórica de três diagramas da P1 pode ser consultada no commit e810ffd. O protótipo não demonstra garantias de servidor, rede ou banco de dados.
