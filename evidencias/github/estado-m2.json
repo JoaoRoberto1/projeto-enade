@@ -104,6 +104,90 @@
       "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues?milestone=2&state=all&per_page=100&page=1",
       "http": 200,
       "data_servidor": "Thu, 19 Nov 2026 13:59:24 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:12 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues?state=all&per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:13 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/milestones?state=all&per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:14 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/commits/d4f250d24f31b9b71966a1865f15e1f2e9fc8646",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:15 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/branches/feat%2Fm2-srs-prototipo",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:15 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/14",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:17 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/15",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:18 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/16",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:19 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/17",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:21 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/18",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:22 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/19",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:23 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/20",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:25 GMT"
+    },
+    {
+      "metodo": "PATCH",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues/21",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:26 GMT"
+    },
+    {
+      "metodo": "GET",
+      "endpoint": "/repos/JoaoRoberto1/projeto-enade/issues?milestone=2&state=all&per_page=100&page=1",
+      "http": 200,
+      "data_servidor": "Thu, 19 Nov 2026 14:03:26 GMT"
     }
   ],
   "repositorio_publico": true,
@@ -120,74 +204,75 @@
       "number": 21,
       "title": "M2-08 — Versionar e preparar o pacote da entrega",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/21",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:17Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:25Z"
     },
     {
       "number": 20,
       "title": "M2-07 — Verificar fluxos e guardar evidências",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/20",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:16Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:24Z"
     },
     {
       "number": 19,
       "title": "M2-06 — Construir o protótipo navegável",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/19",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:15Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:22Z"
     },
     {
       "number": 18,
       "title": "M2-05 — Criar wireframes de baixa fidelidade",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/18",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:14Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:21Z"
     },
     {
       "number": 17,
       "title": "M2-04 — Revisar consistência e rastreabilidade",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/17",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:13Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:20Z"
     },
     {
       "number": 16,
       "title": "M2-03 — Atualizar e renderizar a modelagem UML",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/16",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:12Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:19Z"
     },
     {
       "number": 15,
       "title": "M2-02 — Detalhar os 14 casos de uso",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/15",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:11Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:18Z"
     },
     {
       "number": 14,
       "title": "M2-01 — Estruturar o SRS baseado na IEEE 830",
       "html_url": "https://github.com/JoaoRoberto1/projeto-enade/issues/14",
-      "state": "open",
-      "state_reason": null,
+      "state": "closed",
+      "state_reason": "completed",
       "created_at": "2026-11-19T13:58:10Z",
-      "closed_at": null
+      "closed_at": "2026-11-19T14:03:16Z"
     }
   ],
-  "conclusao": "Registro real de tarefas documentais e do protótipo. Envio no AVA e validação com usuários não foram executados por este script."
+  "conclusao": "Registro real de tarefas documentais e do protótipo. Envio no AVA e validação com usuários não foram executados por este script.",
+  "commit_entrega": "d4f250d24f31b9b71966a1865f15e1f2e9fc8646"
 }

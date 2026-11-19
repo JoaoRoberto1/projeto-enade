@@ -41,3 +41,7 @@ gh api 'repos/JoaoRoberto1/projeto-enade/milestones?state=all'
 ```
 
 O endpoint específico de colaboração retorna 204 quando o vínculo existe e 404 quando não existe, conforme a [documentação oficial do GitHub](https://docs.github.com/en/rest/collaborators/collaborators#check-if-a-user-is-a-repository-collaborator). Uma confirmação textual/JSON real da API não é uma captura de tela. Nenhum print foi fabricado.
+
+## Evolução P2 / M2
+
+Em 19/11/2026, os artefatos P2 foram publicados na branch `feat/m2-srs-prototipo`. As oito issues da M2 (#14–#21) foram fechadas com evidências no commit `d4f250d`. Consulte [registro real da M2](estado-m2.json) e [planejamento da Sprint 2](../../docs/12-sprint2/planejamento-m2.md). Isso não altera retroativamente os registros da M1 nem confirma envio no AVA.

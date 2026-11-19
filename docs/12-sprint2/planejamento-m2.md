@@ -31,3 +31,18 @@ SRS editável e PDF; 14 UC detalhados; UML revisado e renderizado; matriz de con
 ## Registros de encerramento
 
 O estado real das issues e o commit de entrega são guardados em [evidências da M2](../../evidencias/github/estado-m2.json). A revisão e a submissão no AVA devem ser feitas pelos integrantes.
+
+## Estado confirmado no GitHub
+
+Oito issues da M2 fechadas com evidências no commit `d4f250d`.
+
+| Tarefa | Issue | Estado |
+|---|---|---|
+| [M2-01](https://github.com/JoaoRoberto1/projeto-enade/issues/14) | #14 | Fechada |
+| [M2-02](https://github.com/JoaoRoberto1/projeto-enade/issues/15) | #15 | Fechada |
+| [M2-03](https://github.com/JoaoRoberto1/projeto-enade/issues/16) | #16 | Fechada |
+| [M2-04](https://github.com/JoaoRoberto1/projeto-enade/issues/17) | #17 | Fechada |
+| [M2-05](https://github.com/JoaoRoberto1/projeto-enade/issues/18) | #18 | Fechada |
+| [M2-06](https://github.com/JoaoRoberto1/projeto-enade/issues/19) | #19 | Fechada |
+| [M2-07](https://github.com/JoaoRoberto1/projeto-enade/issues/20) | #20 | Fechada |
+| [M2-08](https://github.com/JoaoRoberto1/projeto-enade/issues/21) | #21 | Fechada |

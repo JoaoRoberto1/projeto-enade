@@ -24,3 +24,7 @@ O registro do [Milestone M2](https://github.com/JoaoRoberto1/projeto-enade/miles
 Escolha/conferência de acesso do professor ao protótipo, revisão dos integrantes, matrículas quando exigidas, submissão no AVA e validação com usuários reais. A [folha de entrega](entrega-ava.md) identifica os links e as ações do grupo.
 
 Os testes automatizados não são entrevistas nem comprovação de todas as metas de produção. Backend, segurança de servidor, relógio autoritativo, backup e operação institucional permanecem requisitos futuros.
+
+## Versionamento e conclusão das tarefas
+
+Entrega publicada na branch `feat/m2-srs-prototipo`, commit `d4f250d`. As oito issues (#14 a #21) foram fechadas com links para os artefatos e verificações. O registro JSON preserva datas e estados retornados pela API. O acesso do avaliador ao protótipo e o envio no AVA continuam com as pendências descritas acima.
