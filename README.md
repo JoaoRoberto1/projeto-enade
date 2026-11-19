@@ -18,7 +18,7 @@ A P2 evolui a base da P1 com SRS, casos de uso detalhados, revisão de consistê
 | Sprint 2 e tarefas | [Planejamento](docs/12-sprint2/planejamento-m2.md) · [Relatório](docs/12-sprint2/relatorio-m2.md) · [Milestone M2](https://github.com/JoaoRoberto1/projeto-enade/milestone/2) |
 | Envio no AVA | [Instruções e links](docs/12-sprint2/entrega-ava.md) · [Folha em PDF](entregaveis/Entrega_P2_ENADE.pdf) |
 
-**Acesso do avaliador:** o protótipo foi publicado inicialmente com acesso privado. A escolha de compartilhamento do grupo deve ser concluída antes do envio do link ao professor. O [registro de publicação](evidencias/p2/publicacao.json) indica o estado confirmado.
+**Acesso do avaliador:** o protótipo está público e pode ser aberto por qualquer pessoa com o link. O acesso foi liberado em 19/11/2026, conforme o [registro de publicação](evidencias/p2/publicacao.json).
 
 Para executar localmente: `python -m http.server 8765 --directory prototipo` e abrir `http://localhost:8765`. As quatro contas de demonstração aparecem na tela de entrada. Nenhuma credencial real deve ser utilizada.
 

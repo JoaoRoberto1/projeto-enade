@@ -23,7 +23,7 @@ SRS editável e PDF; 14 UC detalhados; UML revisado e renderizado; matriz de con
 
 ## Riscos e ações
 
-- Link do protótipo precisa permitir o acesso do avaliador; verificar o público antes de enviar.
+- Acesso público por link confirmado em 19/11/2026; conferir a disponibilidade antes de enviar.
 - Data de vencimento é 23/11 às 00h00: concluir o envio até o fim de 22/11.
 - Navegador pode bloquear armazenamento; a interface informa falha sem confirmar gravação.
 - Coleta e validação com pessoas exigem execução real do grupo; não são inferidas dos testes automatizados.

@@ -10,7 +10,7 @@
 - **Repositório com a P2:** https://github.com/JoaoRoberto1/projeto-enade/tree/feat/m2-srs-prototipo
 - **Milestone M2:** https://github.com/JoaoRoberto1/projeto-enade/milestone/2
 
-**Acesso ao protótipo:** publicado inicialmente com acesso privado ao proprietário. A liberação para o professor depende da escolha de compartilhamento do grupo. Não enviar o link como acessível ao avaliador antes dessa conferência.
+**Acesso ao protótipo:** público, liberado em 19/11/2026. Qualquer pessoa com o link pode abrir a demonstração e escolher um dos perfis fictícios na tela de entrada.
 
 ## Arquivos preparados
 
@@ -21,7 +21,7 @@
 
 ## Conferência antes do envio
 
-1. Abrir o protótipo com uma conta que represente o acesso do avaliador; confirmar permissão.
+1. Abrir o protótipo em uma janela anônima e escolher um perfil de demonstração.
 2. Abrir o link da branch P2 e conferir SRS, diagramas, prints e issues da M2.
 3. Ler a SRS e percorrer a demonstração para que ambos os integrantes consigam apresentá-la.
 4. Conferir as matrículas no AVA, se exigidas. Elas não foram fornecidas nem inventadas.

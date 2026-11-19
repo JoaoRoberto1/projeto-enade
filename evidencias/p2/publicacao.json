@@ -5,7 +5,10 @@
   "source_commit": "80fd4d84d8e5278169056497f4888902f90f24ba",
   "status": "succeeded",
   "url": "https://trilha-enade-p2-joao-vinicius.aloftwalrus8.chatgpt.site",
-  "acesso": "privado",
+  "acesso": "publico",
+  "access_mode": "public",
+  "access_revision": 2,
+  "access_updated_at": "2026-11-19T14:22:45.832072+00:00",
   "github_p2": "https://github.com/JoaoRoberto1/projeto-enade/tree/feat/m2-srs-prototipo",
-  "observacao": "Publicação privada confirmada pelo Sites. Acesso do avaliador depende da escolha de compartilhamento do grupo."
+  "observacao": "Acesso público por link autorizado pelo grupo e confirmado pelo Sites em 19/11/2026."
 }
